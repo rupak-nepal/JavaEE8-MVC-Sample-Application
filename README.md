@@ -1,2 +1,2 @@
 # JavaEE8-MVC-Sample-Application
-Java EE8, Payera 5, Apache Mybatis, and Posgtres.
+Java EE8, CDI, Payera 5, Apache Mybatis, and Posgtres.
