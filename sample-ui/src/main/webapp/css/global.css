@@ -1,0 +1,171 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}  
+/*header*/
+
+.header-color{ 
+    background:#005cbf;box-shadow: rgba(0, 0, 0.24, 0.24) 3px 4px 6px;z-index: 2;
+}
+.header-color-active {
+    background-color: #117a8b !important;
+    color: #FFFDE7 !important;
+}
+
+.navbar-brand{
+    color:#fff
+}
+.nav-toggle{
+    font-size: 25px;
+    cursor:pointer;
+    margin-left: 22px ;
+    color:#FFFDE7; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    right: 0px;
+    top: 0px;
+}
+.admin-btn{
+    background-color:#117a8b !important;
+    color:white;
+}
+.logout-btn{
+    background-color:#117a8b !important;
+    border:none;
+    outline: none
+}
+.logout{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #FFFDE7;
+    cursor:pointer;
+}
+
+
+li.nav-item:hover{
+    background-color:  	black; 
+    color:#fff;
+    text-decoration: none;
+}
+a.dropdown-item:hover{
+    background-color:  	black; 
+    color:#fff;
+    text-decoration: none;
+
+}
+.btnyes:hover{
+    background-color: #4CAF50;
+    color:white;
+    outline: none;
+
+}
+.btnno:hover{
+    background-color: #4CAF50;
+    color:white;
+    outline: none;
+
+}
+
+#container{
+
+    padding: 0 0 60px;
+    margin-left: 240px ;
+    transition: 0.1s;
+    margin-top: 65px;
+    min-height: 100%;
+
+    margin-right: 10px !important;
+}
+
+input[type=checkbox]
+{
+
+    -ms-transform: scale(1.5); 
+    -moz-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    -o-transform: scale(1.5); 
+    padding: 8px;
+}
+.btn{
+    background-color: #4CAF5;
+    border: none;
+    color:white;
+}
+.btn:hover{
+    opacity: 0.8;
+    color:white;
+    background: #4CAF5;
+}
+
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: green;
+}
+
+.nav-item a {
+    color:black;
+}
+.nav-tabs .nav-link:hover{
+    background: white;
+}
+
+
+.first-col-box{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   background-color:white;
+   border: 2px solid #f1f1f1;
+   height: 323px;
+   
+   margin-top: 25px;
+   margin-right: 35px;
+   margin-left: 35px;
+   
+}
+.second-col-box{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   background-color:white;
+   border: 2px solid #f1f1f1;
+   height: 323px;
+    margin-top: 25px;
+    margin-left: 25px;
+   
+   
+}
+.uname{
+   width: 100%;
+}
+.uid{width: 100%;}
+.uroll{width: 100%;}
+.cpass{
+   width: 100%;
+}
+.newpass{
+   width: 100%;
+}
+.conpass{
+   width: 100%;
+}
+h6{
+   margin-top: 10px;
+}
+.profile-btn{
+   margin-top: 18px;
+}
+.password-btn{
+   margin-top: 35px;
+}
+
+
+
+
+
