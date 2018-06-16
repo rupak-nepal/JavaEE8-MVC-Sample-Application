@@ -4,8 +4,9 @@ Java EE8, CDI, Payera 5, Apache Mybatis, and Posgtres.
 
 ### How do I get set up? ###
 
-First clone project and perform build. 
-payara5/glassfish/domains/domain1/config/domain.xml(update with :)
+1. First clone project and perform build. 
+2. payara5/glassfish/domains/domain1/config/domain.xml(update with:)
+
       <jdbc-connection-pool datasource-classname="org.postgresql.ds.PGSimpleDataSource" name="postgresqsapleapplpool" res-                type="javax.sql.DataSource">
             <property name="Password" value="password_sample"></property>
             <property name="PortNumber" value="5432"></property>
@@ -20,7 +21,8 @@ payara5/glassfish/domains/domain1/config/domain.xml(update with :)
       <server>
        <resource-ref ref="jdbc/postgres"></resource-ref>
       </server>
-put postgresql-42.2.2.jar inside payara5/glassfish/domains/domain1/lib/
-Then insert a column in users table with full_name, username and password.
-Then start server.
-Then you can log in.
+      
+3. put postgresql-42.2.2.jar inside payara5/glassfish/domains/domain1/lib/
+4. Then insert a column in users table with full_name, username and password.
+5. Then start server.
+6. Then you can log in.
